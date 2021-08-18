@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f5f8;
+    font-family: "Zilla Slab", serif;
+  }
+  
+  h2 {
+    font-family: "Great Vibes", cursive;
+    font-size: 3rem;
+    text-align: center;
+    color: #ff6a23;
+  }
+  .menu {
+    margin-top: 20px;
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+  }
+  .btn-item {
+    margin-left: 15px;
+  }
+  .btn-outline-warning{
+      margin: 0 5px;
+  }
+  img{
+      max-width: 100%!important;
+      max-height: 150px;
+      object-fit: cover;
+  }
+  .card{
+      height: 350px;
+  }
+  
+  .menu-info {
+    margin-left: 20px;
+    width: 100%;
+  }
+  
+  .card-title {
+    color: #e00a00;
+  }
+  .section-center{
+      max-width: 80% !important;
+      margin: 0 auto !important;
+  }
+  .menu-text {
+    padding-top: 20px;
+  }
